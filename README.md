@@ -1,5 +1,5 @@
 ## SDSS Computing Studies Python Assignment
-### Assignment 017 Try Except Blocks
+### Assignment A302 Try..Except Blocks
 
 Objectives:
 * Use try except to catch errors and work around them
