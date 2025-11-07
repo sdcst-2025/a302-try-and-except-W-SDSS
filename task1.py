@@ -8,7 +8,7 @@
 # block so that the user will allow them to enter an integer,
 # or display an error message if they enter in something else.
 
-number = input("Please enter in an integer value")
+number = input("Please enter in an integer value: ")
 try:
     number = int(number)
     print(number)

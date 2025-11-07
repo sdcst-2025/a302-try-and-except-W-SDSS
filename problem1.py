@@ -32,8 +32,13 @@ os.system('cls')
 
 print("Enter in the coefficients for a quadratic equation in the format:")
 print("  ax^2 + bx + c = 0")
-int(input("a: "))
-int(input("b: "))
-int(input("c: "))
+a = int(input("a: "))
+b = int(input("b: "))
+c = int(input("c: "))
 
-D = -b + b**2
+import math
+D = b**2 - 4*a*c
+
+try:
+  D == int(D)
+  print(f"Those are not valid value for a, b or c")
