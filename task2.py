@@ -19,3 +19,15 @@ The reciprocal of 3 is 0.3333333333333333
 Enter a number: 4
 The reciprocal of 4 is 0.25
 """
+
+num = input("Enter a number: ")
+
+import math
+recip = 1/num
+
+try:
+    recip == 'int'
+    print(f"The reciprocal of {num} is {recip}")    
+except:
+    num == 0
+    print("The reciprocal of 0 does not exist")

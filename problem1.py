@@ -32,3 +32,8 @@ os.system('cls')
 
 print("Enter in the coefficients for a quadratic equation in the format:")
 print("  ax^2 + bx + c = 0")
+int(input("a: "))
+int(input("b: "))
+int(input("c: "))
+
+D = -b + b**2
