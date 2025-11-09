@@ -26,19 +26,36 @@ b:8
 c:16
 The roots are -4.0 and -4.0
 """
+
 import os
 os.system('cls')
 
 
 print("Enter in the coefficients for a quadratic equation in the format:")
 print("  ax^2 + bx + c = 0")
-a = int(input("a: "))
-b = int(input("b: "))
-c = int(input("c: "))
 
+while True
+try:
+  a = float(input("a: "))
+  b = float(input("b: "))
+  c = float(input("c: "))
+except ValueError:
+  print("Those are not valid values for a, b or c")
+  continue
+  
 import math
 D = b**2 - 4*a*c
 
 try:
-  D == int(D)
-  print(f"Those are not valid value for a, b or c")
+  if D < 0:
+    raise ValueError("No real root")
+
+  root1 = round(root1, 2)
+  root2 = round(root2, 2)
+
+  if root == root2:
+    print(f"The roots are {root1} and {root2}")
+  else:
+    print(f"The roots are {root1} and {root2}")
+except ValueError:
+print("There are no real roots to the eqation")
