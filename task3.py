@@ -24,15 +24,13 @@ num = input("Enter a number: ")
 import math
 
 try:
-    number = float(num)
+    num = float(num)
 except ValueError:
     print("That is not a valid number")
     print("There is no square root")
 else:
     try:
-        re = math.sqrt(number)
-        print(f"The sqare root of {number} is {re}")
+        re = math.sqrt(num)
+        print(f"The sqare root of {num} is {re}")
     except ValueError:
         print("There is no sqare root")
-
-#naositayo
