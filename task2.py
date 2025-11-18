@@ -23,12 +23,14 @@ The reciprocal of 4 is 0.25
 num = input("Enter a number: ")
 
 try:
-    if num == 0:
-        print("The reciprocal of 0 does not exist")
-    else:
-        recip = 1 / num
-        print("The reciprocal of", num, "is", recip)
-except:
-    print("That is not a number")
+    number = float(num)
+except ValueError:
+    print("That is not a valid number")
+else:
+    try:
+        recip = 1 / number
+        print(f"The reciprocal of {num} is {recip}")
+    except recip == 0:
+        print(f"The reciprocal of {num} does not exist")
 
-    #yoku wakaran
+#naositayo
