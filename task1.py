@@ -12,5 +12,5 @@ number = input("Enter an integer value: ")
 try:
     number = int(number)
     print(number)
-except:
-    print("There is an error")
+except ValueError:
+    print("That is not a valid integer")
