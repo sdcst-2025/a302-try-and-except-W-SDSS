@@ -19,9 +19,9 @@ There is no square root
 Enter a number:3       
 The square root of 3.0 is 1.7320508075688772
 """
-num = input("Enter a number: ")
-
 import math
+
+num = input("Enter a number: ")
 
 try:
     num = float(num)
@@ -31,6 +31,6 @@ except ValueError:
 else:
     try:
         re = math.sqrt(num)
-        print(f"The sqare root of {num} is {re}")
+        print(f"The square root of {num} is {re}")
     except ValueError:
         print("There is no sqare root")
