@@ -8,9 +8,9 @@
 # block so that the user will allow them to enter an integer,
 # or display an error message if they enter in something else.
 
-number = input("Enter an integer value: ")
+num = input("Enter an integer value: ")
 try:
-    number = int(number)
+    number = int(num)
     print(number)
 except ValueError:
     print("That is not a valid integer")

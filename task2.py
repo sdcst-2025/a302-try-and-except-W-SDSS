@@ -32,5 +32,3 @@ else:
         print(f"The reciprocal of {num} is {recip}")
     except ZeroDivisionError:
         print(f"The reciprocal of {num} does not exist")
-
-#naositayo

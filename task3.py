@@ -33,4 +33,4 @@ else:
         re = math.sqrt(num)
         print(f"The square root of {num} is {re}")
     except ValueError:
-        print("There is no sqare root")
+        print("There is no square root")

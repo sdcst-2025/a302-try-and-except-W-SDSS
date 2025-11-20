@@ -27,20 +27,18 @@ c:16
 The roots are -4.0 and -4.0
 """
 
-import os
-os.system('cls')
 import math
 
 print("Enter in the coefficients for a quadratic equation in the format:")
 print("  ax^2 + bx + c = 0")
 
-While True:
 try:
   a = float(input("a: "))
   b = float(input("b: "))
   c = float(input("c: "))
 except ValueError:
   print("Those are not valid values for a, b or c")
+  exit()
   
 D = b**2 - 4*a*c
 
