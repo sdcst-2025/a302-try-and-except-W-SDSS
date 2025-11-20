@@ -34,7 +34,6 @@ import math
 print("Enter in the coefficients for a quadratic equation in the format:")
 print("  ax^2 + bx + c = 0")
 
-While True:
 try:
   a = float(input("a: "))
   b = float(input("b: "))
